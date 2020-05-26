@@ -1,0 +1,20 @@
+{
+  "restartable": "rs",
+  "ignore": [
+  ".git",
+  ".svn",
+  "logs",
+  "pem",
+  "node_modules/**/node_modules"
+],
+  "verbose": true,
+  "execMap": {
+  "js": "node index.js"
+},
+  "watch": [
+],
+  "env": {
+  "NODE_ENV": "development"
+},
+  "ext": "js json"
+}
